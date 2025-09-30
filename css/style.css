@@ -3,28 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 a{
     color: none;
 }
+
 header{
+    background-color: rgb(241, 251, 255);
     padding: 20px 20px;
     margin-bottom: 40px;
 }
+
 body{
     font-family: sans-serif;
 }
+
 .logo{
     display: inline-block;
     width: 20;
 }
+
 .titolo{
     display: inline-block;
     font-size: 50px;
 }
+
 .container{
     width: 80%;
     margin: 0 auto;
+    background-color: rgb(239, 251, 255);
+
 }
+
+nav{
+    margin-bottom: 60px;
+}
+
 .add-task{
     padding: 10px 20px;
     background-color: rgb(0, 157, 255);
@@ -32,6 +46,7 @@ body{
     border-radius: 5px;
     display: inline-block;
 }
+
 .add-section{
     padding: 10px 20px;
     color: gray;
@@ -43,14 +58,17 @@ body{
 ul{
     list-style: none;
 }
+
 .prima-lista{
-    font-style: inherit;
+    font-weight: 900;
     font-size: 30px;
 }
-.seconda-lista{
-    font-size: 20px;
 
+.seconda-lista{
+    font-weight: 200;
+    font-size: 20px;
 }
+
 .checkmark{
     display: inline-block;
     width: 30px;
@@ -58,4 +76,51 @@ ul{
     color: green;
     border-radius: 50%;
     border: 1px solid green;
+}
+.cross{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: red;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+
+.bg-blue{
+    background-color: rgb(0, 174, 255);
+}
+
+.bg-viola{
+    background-color: blueviolet;
+}
+
+.bg-green{
+    background-color: rgb(29, 224, 143);
+}
+
+.bg-orange{
+    background-color: orange;
+}
+
+.bg-fuxia{
+    background-color: fuchsia;
+}
+
+.bg-yellow{
+    background-color: yellowgreen;
+}
+
+.bottom-10{
+    margin-bottom: 20px;
+}
+.bottom-20{
+    margin-bottom: 20px;
+}
+
+.section{
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 5px 10px ;
+    color: white;
 }
